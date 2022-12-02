@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+    <h1> js strings as objects</h1>
+
+    <h1>
+        
+        let x= "virat"
+
+        let y=new String("virat")
+
+
+    </h1>
+
+    <h1 id="demo"></h1>
+
+    <script>
+
+        let x= "virat"
+
+        let y=new String("virat")
+
+        document.getElementById("demo").innerHTML=
+
+        typeof x + " <br>" + typeof y
+    </script>
+
+    <h1>the new keyword complicates the code and slows down execution speed.</h1>
+
+
+    <p>x1==y1</p>
+    <p id="d"></p>
+
+    <hr>
+    <p>x1 === y1</p>
+    <p id="c">x1 === y1</p>
+
+    <h1>
+        Never Create Strings as Objects
+    </h1>
+
+    <h2>
+        JavaScript objects cannot be compared.
+    </h2>
+
+    <h1>Comparing two JavaScript objects always returns false.</h1>
+
+    <script>
+
+let x1= "virat"
+
+let y1=new String("virat")
+
+document.getElementById("d").innerHTML= (x1==y1)
+
+document.getElementById("c").innerHTML= (x1===y1)
+
+
+    </script>
+
+
+
+
+
+
+</body>
+</html>
