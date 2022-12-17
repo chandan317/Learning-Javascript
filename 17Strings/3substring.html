@@ -7,20 +7,21 @@
     <title>Document</title>
   </head>
   <body>
-    <pre>
-       <h1>substring() is similar to slice().</h1> 
-    </pre>
+        <pre>
+          <h1>substring() is similar to slice().</h1> 
+        </pre>
 
     <p>
       The substring() method extract a part of a string and returns the
       extracted parts in a new string:
+      exclude last number i.e 
     </p>
 
     <p id="demo"></p>
     <script>
         let str = "Apple, Banana,Kiwi";
 
-        document.getElementById("demo").innerHTML=str.substr(7,6);
+        document.getElementById("demo").innerHTML=str.substring(0,5);
 
 
 
